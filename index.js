@@ -15,7 +15,7 @@ app.use(express.json());
 
 // routes middlewares
 app.use("/api/contact", contactRouter);
-app.use("/api/practice", practiceRouter);
+// app.use("/api/practice", practiceRouter);
 
 app.get("/", (req, res) => {
   res.json({ message: "hellow world" });
